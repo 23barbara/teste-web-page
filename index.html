@@ -1,13 +1,33 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Pagina Especial</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
     </head>
     <body>
         <p>You say</p>
         <h1>Hello!</h1> 
         <p>And I say</p>
         <h2>Goodbye</h2>
+    
+    <label for="environment">Capture environment:</label>
+    <br>  
+    <input 
+        type="file"
+        id="environment"
+        capture="environment"
+        accept="video/*"
+    >
+    <br><br>
+    <label for="user">Capture user:</label>
+    <br>
+    <input
+        type="file"
+        id="user"
+        capture="user"
+        accept="image/*">
 
     </body>
 </html>
